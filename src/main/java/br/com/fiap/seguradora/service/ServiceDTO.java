@@ -22,12 +22,7 @@ public interface ServiceDTO<Entity, Request, Response> {
 
     public Entity save(Entity e);
 
-    /**
-     * Transforma o RequestDTO em Entidade
-     *
-     * @param dto é um DTO de requisição ( RequestDTO )
-     * @return uma Entidade
-     */
+
     public Entity toEntity(Request dto);
 
     /**
